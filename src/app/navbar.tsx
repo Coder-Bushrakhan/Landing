@@ -14,7 +14,7 @@ export default function Navbar()
          
          <li className=" " ><Link href={"/post"}>Posts</Link></li>
          <li className=" "><Link href={"/states"}>Statistics</Link></li>
-         <li className=" "><Link href={"/testimonals"}>Testimonals</Link></li>
+         <li className=" "><Link href={"/test"}>Testimonals</Link></li>
          <li className=" "><Link href={"/contact"}>Contact</Link></li>
        
             </ul>
