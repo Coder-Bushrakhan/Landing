@@ -19,7 +19,7 @@ export default function Page()
       </div>
     </div>
     <div className="flex flex-col justify-center items-center lg:flex-row space-y-28 lg:space-y-0  lg:space-x-10">
-      <div className="bg-slate-200 shadow-2xl flex flex-col justify-center items-center py-4 h-56 md:w-[80%] lg:w-fit">
+      <div className="bg-slate-200 hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110  shadow-2xl flex flex-col justify-center items-center py-4 h-56 md:w-[80%] lg:w-fit">
         <div className="-mt-20 ">
           <Image
             src="/photo.jpg"
@@ -40,7 +40,7 @@ export default function Page()
           <p className="text-black text-sm lg:mt-[5px]">Co-Founder at xyz</p>
         </div>
       </div>
-      <div className="bg-slate-200 shadow-2xl flex flex-col justify-center items-center py-4 h-56 md:w-[80%] lg:w-fit">
+      <div className="bg-slate-200 shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110  flex flex-col justify-center items-center py-4 h-56 md:w-[80%] lg:w-fit">
         <div className="-mt-20 ">
         <Image
             src="/ano.jpg"
@@ -59,7 +59,7 @@ export default function Page()
           <p className="text-black text-sm lg:mt-[5px]">Co-Founder at xyz</p>
         </div>
       </div>
-      <div className="bg-slate-200 shadow-2xl flex flex-col justify-center items-center py-4 h-56 md:w-[80%] lg:w-fit">
+      <div className="bg-slate-200 shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110  flex flex-col justify-center items-center py-4 h-56 md:w-[80%] lg:w-fit">
         <div className="-mt-20 ">
         <Image
             src="/wom.jpg"

@@ -16,7 +16,7 @@ export default function Page()
             <div className="flex items-center justify-center bg-gray-50 p-4">
   <div className="flex flex-col max-w-7xl w-full md:w-[70%]">
     <div className="flex flex-col lg:flex-row ">
-      <div className="bg-white shadow-2xl rounded-xl flex items-start h-32 w-[90%] lg:w-1/2 justify-center py-4 px-8 mx-4 my-2">
+      <div className="bg-white  hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110 shadow-2xl rounded-xl flex items-start h-32 w-[90%] lg:w-1/2 justify-center py-4 px-8 mx-4 my-2">
         <div className="flex items-center justify-start w-full">
           <div className="flex-col w-[85%]">
             <div className="text-sm font-medium text-violet-600 my-2">
@@ -39,7 +39,7 @@ export default function Page()
           </div>
         </div>
       </div>
-      <div className="bg-white shadow-2xl rounded-xl flex items-start h-32 w-[90%] lg:w-1/2 justify-center py-4 px-8 mx-4 my-2">
+      <div className="bg-white shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110  rounded-xl flex items-start h-32 w-[90%] lg:w-1/2 justify-center py-4 px-8 mx-4 my-2">
         <div className="flex items-center justify-start w-full">
           <div className="flex-col w-[85%]">
             <div className="text-sm font-medium text-violet-600 my-2">
@@ -60,7 +60,7 @@ export default function Page()
       </div>
     </div>
     <div className="flex flex-col lg:flex-row ">
-      <div className="bg-white shadow-2xl rounded-xl flex items-start max-w-1/2 w-[90%] lg:w-1/2 justify-center py-4 px-4 mx-4 my-2">
+      <div className="bg-white shadow-2xl  hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110  rounded-xl flex items-start max-w-1/2 w-[90%] lg:w-1/2 justify-center py-4 px-4 mx-4 my-2">
         <div className="flex items-center justify-start w-full">
           <div className="flex-col w-[85%]">
             <div className="text-sm font-medium text-violet-600 my-2">
@@ -135,7 +135,7 @@ export default function Page()
           </div>
         </div>
       </div>
-      <div className="bg-white shadow-2xl rounded-xl flex items-start max-w-1/2 w-[90%] lg:w-1/2 justify-center py-4 px-4 mx-4 my-2">
+      <div className="bg-white shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110  rounded-xl flex items-start max-w-1/2 w-[90%] lg:w-1/2 justify-center py-4 px-4 mx-4 my-2">
         <div className="flex items-center justify-start w-full">
           <div className="flex-col w-[85%]">
             <div className="text-sm font-medium text-violet-600 my-2">

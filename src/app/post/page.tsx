@@ -17,13 +17,13 @@ export default function Page()
            
   {""}
   
-  <div className="flex flex-col  lg:flex-row items-center shadow-2xl  max-w-7xl w-[90%] m-4">
+  <div className="flex flex-col gap-4  lg:flex-row items-center   max-w-7xl w-[90%] m-4">
   
     <div
       style={{
         backgroundImage: "url(vir.jpg)"
       }}
-      className="bg-no-repeat bg-cover  bg-center shadow-2xl lg:bg-left flex flex-col w-[90%] lg:w-[40%] h-96 m-2 brightness-110 hover:brightness-90 "
+      className="bg-no-repeat bg-cover shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110 bg-center  lg:bg-left flex flex-col w-[90%] lg:w-[40%] h-96 m-2 brightness-110 hover:brightness-90 "
     >
       {" "}
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50">
@@ -50,7 +50,7 @@ export default function Page()
         backgroundImage:
           "url(virr.jpg)"
       }}
-      className="bg-no-repeat bg-cover shadow-2xl bg-center lg:bg-left flex flex-col w-[90%] lg:w-[40%] h-96 m-2 brightness-110 hover:brightness-90 "
+      className="bg-no-repeat bg-cover shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110 bg-center lg:bg-left flex flex-col w-[90%] lg:w-[40%] h-96 m-2 brightness-110 hover:brightness-90 "
     >
       {" "}
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50">
@@ -79,10 +79,10 @@ export default function Page()
         backgroundImage:
           "url(bit.jpg)"
       }}
-      className="bg-no-repeat shadow-2xl bg-cover bg-center lg:bg-left flex flex-col w-[90%] lg:w-[40%] h-96 m-2 brightness-110 hover:brightness-90 "
+      className="bg-no-repeat  bg-cover shadow-2xl hover:-translate-y-1 transition duration-700 ease-in-out  hover:scale-110 bg-center lg:bg-left flex flex-col w-[90%] lg:w-[40%] h-96 m-2 brightness-110 hover:brightness-90  "
     >
       {" "}
-      <div className="absolute inset-0 bg-gray-900 bg-opacity-50">
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 ">
         {" "}
         <div className="flex flex-col items-center justify-center p-2 text-gray-300">
           {" "}
